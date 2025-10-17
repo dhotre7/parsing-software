@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DSA Parser Studio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h2>{ } DSA Parser Studio</h2>
+      <div class="buttons">
+        <button id="openFile">📂 Open File</button>
+        <button id="saveFile">💾 Save File</button>
+        <button id="parseCode" class="green">▶ Parse Code</button>
+        <button id="clearOutput" class="red">🗑 Clear Output</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="editor">
+        <h3>Code Editor</h3>
+        <textarea id="codeArea" spellcheck="false">// Write or paste your C++ code here...</textarea>
+      </section>
+
+      <section class="output">
+        <div class="token-output">
+          <h3>Token Output</h3>
+          <pre id="tokens">No tokens yet.</pre>
+        </div>
+
+        <div class="parser-result">
+          <h3>Parser Result</h3>
+          <p><strong>Syntax:</strong> <span id="syntax">-</span></p>
+          <p><strong>Ambiguity:</strong> <span id="ambiguity">-</span></p>
+        </div>
+
+        <div class="parse-tree">
+          <h3>Parse Tree</h3>
+          <pre id="parseTree">No parse tree yet.</pre>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      Status: Ready | Encoding: UTF-8
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
