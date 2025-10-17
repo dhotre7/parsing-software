@@ -11,9 +11,3 @@ Features
 Parse arithmetic expressions, logical statements, or programming language constructs.
 
 Generate expression trees for analysis or evaluation.
-
-Support for multiple input types (text, JSON, CSV, etc.).
-
-Easy-to-integrate library for Python/C++ projects.
-
-Lightweight and fast, optimized for performance.
